@@ -1,4 +1,4 @@
-# portofolio-twitch
+# portfolio-twitch
 
 Projet en collaboration entre Kevin Bournique et Thomas Pijat sur un site d'information pour une chaine twitch.
 
