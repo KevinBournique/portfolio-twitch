@@ -1,6 +1,6 @@
 body{
     font-family: 'Asap', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 100;
     background-color: #1E1E1E;
     border-radius: 10px;
@@ -11,15 +11,15 @@ body{
     align-items: center;
     padding: 1rem;
 }
-
+/* 
 header, main{
     background-color: #1E0044;
     width: 100%;
 }
 
 header {
-    height: 3vh;
-    padding: 3px;
+    height: fit-content;
+    padding: 1rem;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -29,8 +29,9 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    border: 3px solid #51118A ;
+    border: 3px solid #51118A;
     border-radius: 30px;
+    padding: 1rem 2rem;
 }
 a {
     font-size: 1.6rem;
@@ -43,21 +44,41 @@ nav a::after {
 main {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    padding: 1rem;
+    padding: 0 2rem 2rem 2rem;
+    height: 60vh;
+}
+.main-txt {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-txt__title {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 h1 {
-    font-size: 8rem;
-    font-weight: 500;
+    font-size: 7.6rem;
+    font-weight: 400;
+    margin-bottom: 3rem;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 .main-txt__paragraph {
-    font-size: 0.6rem;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.main-txt__paragraph p{
+    font-size: 1.5rem;
 }
 .logo {
     width: 50%;
@@ -69,15 +90,35 @@ h2 {
     justify-content: space-between;
     background-color: #9830F4;
     border-radius: 30px;
-    height: 15vh;
+    height: fit-content;
     padding: 2rem 3rem 1rem 3rem;
+    margin: 2rem 0;
 }
 
 .box__txt h3{
-    font-size: 35px;
-    font-weight: 300;
+    font-size: 2rem;
+    font-weight: 200;
 }
 
 .box__txt p{
-    
+    margin-top: 0.6rem;
+    line-height: 1.5rem;
 }
+.box__btn {
+    display: flex;
+    justify-content: center;
+}
+.box__btn button{
+    border-radius: 30px;
+    background: none;
+    color: white;
+    border:1px solid white;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.6rem 1rem;
+}
+.box__btn a{
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: 'Asap', sans-serif;
+} */
